@@ -1,0 +1,13 @@
+#creates a new patient activity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John sam 125",
+  "email": "iasdd@example.com",
+  "address": "123 main street",
+  "date_of_birth": "1995-09-09",
+  "registered_date": "2022-01-02"
+}
+
+###
